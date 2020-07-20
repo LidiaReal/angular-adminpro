@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './nopagefound.component.html',
   styles: []
 })
-export class NopagefoundComponent implements OnInit {
+export class NopagefoundComponent  {
+
+  year = new Date().getFullYear();
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
